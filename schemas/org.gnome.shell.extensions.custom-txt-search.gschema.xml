@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.custom-txt-search" path="/org/gnome/shell/extensions/custom-txt-search/">
+    <key name="url-file-path" type="s">
+      <default>'~/.url.txt'</default>
+      <summary>Pfad zur URL-Textdatei</summary>
+      <description>Pfad zur Datei, die URLs und Labels enthält. Standard ist ~/.url.txt.</description>
+    </key>
+    <key name="label-separator" type="s">
+      <default>'|'</default>
+      <summary>Trennzeichen zwischen Label und URL</summary>
+      <description>Zeichenkette, die Label und URL trennt, z.B. "|".</description>
+    </key>
+    <key name="create-example-file" type="b">
+      <default>true</default>
+      <summary>Beispieldatei automatisch erstellen</summary>
+      <description>Wenn aktiviert, wird beim ersten Start eine Beispieldatei mit Einträgen erstellt, falls die Datei fehlt.</description>
+    </key>
+  </schema>
+</schemalist>

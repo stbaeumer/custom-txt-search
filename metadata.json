@@ -1,0 +1,10 @@
+{
+  "name": "Custom TXT Search",
+  "description": "Search custom txt files (.url.txt) in GNOME Shell",
+  "uuid": "custom-txt-search@local.extensions",
+  "shell-version": ["46", "47", "48", "49"],
+  "version": 1,
+  "author": "Your Name",
+  "url": "https://github.com/yourusername/custom-txt-search",
+  "settings-schema": "org.gnome.shell.extensions.custom-txt-search"
+}

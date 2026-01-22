@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.gnome.Shell.Extensions.CustomTxtSearch
+Exec=/usr/bin/false
+SystemdService=org.gnome.Shell.Extensions.CustomTxtSearch.service
